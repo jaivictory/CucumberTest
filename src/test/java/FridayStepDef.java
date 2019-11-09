@@ -18,7 +18,7 @@ class IsItFriday {
     @Given("today is {string}")
     public void todayIs(String today) {
         this.today = today;
-        System.out.println ("tgif");
+        System.out.println ("today is friday");
     }
 
     @When("i ask wheter it's friday yet")
