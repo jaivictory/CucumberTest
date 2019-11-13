@@ -1,5 +1,5 @@
-Feature: Free CRM Login Feature
-  Scenario: Free CRM Login Test Scenario
+Feature: Free CRM Login Feature f
+  Scenario: Free CRM Login Test 
     Given user is already on Login Page
     When title of login page is Free CRM
     Then user enters "naveenk" and "test@123"
