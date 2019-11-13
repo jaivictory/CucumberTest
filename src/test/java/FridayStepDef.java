@@ -23,7 +23,7 @@ class IsItFriday {
 
     @When("i ask wheter it's friday yet")
     public void iAskWheterItSFridayYet() {
-        System.out.println ("is it friday yet?");
+        System.out.println ("Is it friday yet?");
         actualAnswer = IsItFriday.isItFriday (today);
     }
 
